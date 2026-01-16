@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Demand   R-squared:                       0.972
+Model:                            OLS   Adj. R-squared:                  0.936
+Method:                 Least Squares   F-statistic:                     27.47
+Date:                Wed, 14 Jan 2026   Prob (F-statistic):            0.00340
+Time:                        15:32:36   Log-Likelihood:                -26.078
+No. Observations:                  10   AIC:                             64.16
+Df Residuals:                       4   BIC:                             65.97
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.0541      0.117      0.464      0.667      -0.270       0.378
+Time           -0.4113      5.985     -0.069      0.949     -17.029      16.206
+Solar          -1.0200      1.570     -0.650      0.551      -5.378       3.338
+Wind            2.1961      5.244      0.419      0.697     -12.364      16.756
+Battery        -4.8227      8.744     -0.552      0.611     -29.100      19.454
+Temperature    14.1702     16.897      0.839      0.449     -32.745      61.085
+Clouds          1.7872      0.371      4.818      0.009       0.757       2.817
+==============================================================================
+Omnibus:                        1.025   Durbin-Watson:                   3.303
+Prob(Omnibus):                  0.599   Jarque-Bera (JB):                0.725
+Skew:                           0.321   Prob(JB):                        0.696
+Kurtosis:                       1.848   Cond. No.                     3.85e+18
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 8.7e-32. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
