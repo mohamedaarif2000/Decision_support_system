@@ -9,6 +9,7 @@ Teams Members:
                Hari Haran Selvam
                Mohamed Aarif Kalifulla Khan 
                Megha Thakur
-               Sohil Khan Bitni '
-               Shireen Shaik
+               Sohil Khan Bitni 
                Rohit Bhagwan Bhartani
+               Shireen Shaik
+
